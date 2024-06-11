@@ -1,5 +1,6 @@
 # Padrão de Projeto Decorator
-- Desenvolvido em Java.
+- Desenvolvido em Java, interface feita com JOptionPane.
+- Criado para facilitar os pedidos em uma sorveteria.
 
 ## Imagens:
 
