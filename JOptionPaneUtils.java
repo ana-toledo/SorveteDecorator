@@ -16,7 +16,7 @@ public class JOptionPaneUtils {
         sabores.add("Açaí");
         return (String) JOptionPane.showInputDialog(null, mensagem, "Opção", JOptionPane.INFORMATION_MESSAGE, null, sabores.toArray(), sabores.get(0));
     }
-    public static Sorvete adicionaSabor(String sabor, Sorvete sorvete){
+    public static SorveteI adicionaSabor(String sabor, SorveteI sorvete){
         switch(sabor){
             case "Morango":
             sorvete = new MorangoDecorator(sorvete);
@@ -45,7 +45,7 @@ public class JOptionPaneUtils {
         adicionais.add("Granulado");
         adicionais.add("Nutella");
     }
-    public static Sorvete adicionaAdicional(Sorvete sorvete, String adicional){
+    public static SorveteI adicionaAdicional(SorveteI sorvete, String adicional){
             switch (adicional){
                 case "Ovomaltine":
                 sorvete = new OvomaltineDecorator(sorvete);

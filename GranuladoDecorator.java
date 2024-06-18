@@ -1,6 +1,6 @@
 public class GranuladoDecorator extends SorveteDecorator{
 
-    public GranuladoDecorator(Sorvete sorvete){
+    public GranuladoDecorator(SorveteI sorvete){
         super(sorvete);
     }
     @Override

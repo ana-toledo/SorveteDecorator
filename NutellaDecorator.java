@@ -1,7 +1,6 @@
-
 public class NutellaDecorator extends SorveteDecorator{
 
-    public NutellaDecorator(Sorvete sorvete){
+    public NutellaDecorator(SorveteI sorvete){
         super(sorvete);
     }
     @Override
@@ -12,4 +11,5 @@ public class NutellaDecorator extends SorveteDecorator{
     public double getPreco() {
         return super.getPreco() + 2;
     }
+
 }

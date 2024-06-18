@@ -1,5 +1,5 @@
 public class MorangoDecorator extends SorveteDecorator{
-    MorangoDecorator(Sorvete sorvete){
+    MorangoDecorator(SorveteI sorvete){
         super(sorvete);
     }
     @Override

@@ -1,14 +1,12 @@
-public abstract class SorveteDecorator extends Sorvete{
-    private Sorvete sorvete;
+public abstract class SorveteDecorator implements SorveteI{
+    private SorveteI sorvete;
 
-    public SorveteDecorator(Sorvete sorvete){
+    public SorveteDecorator(SorveteI sorvete){
         this.sorvete = sorvete;
     }
-    @Override
     public String getDescricao() {
         return sorvete.getDescricao();
     }
-    @Override
     public double getPreco() {
         return sorvete.getPreco();
     }

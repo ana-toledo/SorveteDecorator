@@ -1,6 +1,6 @@
 public class LeiteNinhoDecorator extends SorveteDecorator{
 
-    public LeiteNinhoDecorator(Sorvete sorvete){
+    public LeiteNinhoDecorator(SorveteI sorvete){
         super(sorvete);
     }
     @Override

@@ -1,5 +1,5 @@
 public class ChocolateDecorator extends SorveteDecorator{
-    ChocolateDecorator(Sorvete sorvete){
+    ChocolateDecorator(SorveteI sorvete){
         super(sorvete);
     }
     @Override

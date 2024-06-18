@@ -1,6 +1,6 @@
 public class OvomaltineDecorator extends SorveteDecorator{
 
-    public OvomaltineDecorator(Sorvete sorvete){
+    public OvomaltineDecorator(SorveteI sorvete){
         super(sorvete);
     }
     @Override

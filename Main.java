@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
-        Sorvete sorveteDoCliente = new Sorvete();
+        SorveteI sorveteDoCliente = new Sorvete();
         sorveteDoCliente = JOptionPaneUtils.adicionaSabor(JOptionPaneUtils.selecionaSabor("Seja bem vindo! Por favor, escolha o sabor de seu sorvete."), sorveteDoCliente);
         int n = 0;
         JOptionPaneUtils.iniciaAdicionais();
@@ -19,7 +19,7 @@ public class Main {
         }
         JOptionPane.showMessageDialog(null, getMensagem(sorveteDoCliente));
     }
-    static private String getMensagem(Sorvete sorvete){
+    static private String getMensagem(SorveteI sorvete){
         String mensagem = "Pedido:\n";
         mensagem += sorvete.getDescricao();
         mensagem += "\n\n";
