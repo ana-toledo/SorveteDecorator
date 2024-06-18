@@ -1,4 +1,5 @@
-# Padrão de Projeto Decorator
+# Sorvete Decorator
+- Aplicação do padrão de projeto Decorator.
 - Desenvolvido em Java, interface feita com JOptionPane.
 - Criado para facilitar os pedidos em uma sorveteria.
 
